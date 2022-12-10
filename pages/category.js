@@ -1,6 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
 
+import Header from '../components/header'
+
 const Category = (props) => {
   return (
     <>
@@ -9,6 +11,7 @@ const Category = (props) => {
           <title>category - Assemblage</title>
           <meta property="og:title" content="category - Assemblage" />
         </Head>
+        <Header rootClassName="header-root-class-name"></Header>
       </div>
       <style jsx>
         {`
@@ -17,8 +20,9 @@ const Category = (props) => {
             display: flex;
             overflow: auto;
             min-height: 100vh;
-            align-items: center;
+            align-items: flex-start;
             flex-direction: column;
+            justify-content: flex-start;
           }
         `}
       </style>
