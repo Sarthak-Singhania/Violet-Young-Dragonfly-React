@@ -20,9 +20,8 @@ const Category = (props) => {
             display: flex;
             overflow: auto;
             min-height: 100vh;
-            align-items: flex-start;
+            align-items: center;
             flex-direction: column;
-            justify-content: flex-start;
           }
         `}
       </style>
