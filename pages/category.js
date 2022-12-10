@@ -12,6 +12,10 @@ const Category = (props) => {
           <meta property="og:title" content="category - Assemblage" />
         </Head>
         <Header rootClassName="header-root-class-name"></Header>
+        <span className="category-text">
+          <span>Serveware &gt; Black MOP Cutlery</span>
+          <br></br>
+        </span>
       </div>
       <style jsx>
         {`
@@ -22,6 +26,11 @@ const Category = (props) => {
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
+          }
+          .category-text {
+            align-self: flex-start;
+            margin-top: var(--dl-space-space-twounits);
+            margin-left: var(--dl-space-space-twounits);
           }
         `}
       </style>

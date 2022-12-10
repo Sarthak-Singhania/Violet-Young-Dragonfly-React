@@ -231,7 +231,6 @@ const Header = (props) => {
           .header-header {
             width: 100%;
             display: flex;
-            max-width: var(--dl-size-size-maxwidth);
             box-shadow: 5px 5px 10px 0px #d4d4d4;
             align-items: center;
             padding-top: var(--dl-space-space-twounits);
