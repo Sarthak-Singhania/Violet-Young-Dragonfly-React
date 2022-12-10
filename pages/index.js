@@ -47,37 +47,114 @@ const Home = (props) => {
                 data-thq="thq-dropdown-toggle"
                 className="home-dropdown-toggle"
               >
-                <span className="home-text2">Serveware</span>
+                <span className="home-text02">Serveware</span>
               </div>
               <ul data-thq="thq-dropdown-list" className="home-dropdown-list">
                 <li data-thq="thq-dropdown" className="home-dropdown list-item">
                   <div
                     data-thq="thq-dropdown-toggle"
-                    className="home-dropdown-toggle1"
+                    className="home-dropdown-toggle01"
                   >
-                    <span className="home-text3">Sub-menu Item</span>
+                    <span className="home-text03">Sub-menu Item</span>
                   </div>
                 </li>
                 <li
                   data-thq="thq-dropdown"
-                  className="home-dropdown1 list-item"
+                  className="home-dropdown01 list-item"
                 >
                   <div
                     data-thq="thq-dropdown-toggle"
-                    className="home-dropdown-toggle2"
+                    className="home-dropdown-toggle02"
                   >
-                    <span className="home-text4">Sub-menu Item</span>
+                    <span className="home-text04">Sub-menu Item</span>
                   </div>
                 </li>
                 <li
                   data-thq="thq-dropdown"
-                  className="home-dropdown2 list-item"
+                  className="home-dropdown02 list-item"
                 >
                   <div
                     data-thq="thq-dropdown-toggle"
-                    className="home-dropdown-toggle3"
+                    className="home-dropdown-toggle03"
                   >
-                    <span className="home-text5">Sub-menu Item</span>
+                    <span className="home-text05">Sub-menu Item</span>
+                  </div>
+                </li>
+                <li
+                  data-thq="thq-dropdown"
+                  className="home-dropdown03 list-item"
+                >
+                  <div
+                    data-thq="thq-dropdown-toggle"
+                    className="home-dropdown-toggle04"
+                  >
+                    <span className="home-text06">Sub-menu Item</span>
+                  </div>
+                </li>
+                <li
+                  data-thq="thq-dropdown"
+                  className="home-dropdown04 list-item"
+                >
+                  <div
+                    data-thq="thq-dropdown-toggle"
+                    className="home-dropdown-toggle05"
+                  >
+                    <span className="home-text07">Sub-menu Item</span>
+                  </div>
+                </li>
+                <li
+                  data-thq="thq-dropdown"
+                  className="home-dropdown05 list-item"
+                >
+                  <div
+                    data-thq="thq-dropdown-toggle"
+                    className="home-dropdown-toggle06"
+                  >
+                    <span className="home-text08">Sub-menu Item</span>
+                  </div>
+                </li>
+                <li
+                  data-thq="thq-dropdown"
+                  className="home-dropdown06 list-item"
+                >
+                  <div
+                    data-thq="thq-dropdown-toggle"
+                    className="home-dropdown-toggle07"
+                  >
+                    <span className="home-text09">Sub-menu Item</span>
+                  </div>
+                </li>
+                <li
+                  data-thq="thq-dropdown"
+                  className="home-dropdown07 list-item"
+                >
+                  <div
+                    data-thq="thq-dropdown-toggle"
+                    className="home-dropdown-toggle08"
+                  >
+                    <span className="home-text10">Sub-menu Item</span>
+                  </div>
+                </li>
+                <li
+                  data-thq="thq-dropdown"
+                  className="home-dropdown08 list-item"
+                >
+                  <div
+                    data-thq="thq-dropdown-toggle"
+                    className="home-dropdown-toggle09"
+                  >
+                    <span className="home-text11">Sub-menu Item</span>
+                  </div>
+                </li>
+                <li
+                  data-thq="thq-dropdown"
+                  className="home-dropdown09 list-item"
+                >
+                  <div
+                    data-thq="thq-dropdown-toggle"
+                    className="home-dropdown-toggle10"
+                  >
+                    <span className="home-text12">Sub-menu Item</span>
                   </div>
                 </li>
               </ul>
@@ -183,7 +260,7 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-unit);
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .home-text2 {
+          .home-text02 {
             font-size: 14px;
             font-style: normal;
             text-align: center;
@@ -214,7 +291,7 @@ const Home = (props) => {
             position: relative;
             border-radius: var(--dl-radius-radius-radius2);
           }
-          .home-dropdown-toggle1 {
+          .home-dropdown-toggle01 {
             fill: #595959;
             color: #595959;
             width: 100%;
@@ -227,12 +304,12 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-unit);
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .home-dropdown-toggle1:hover {
+          .home-dropdown-toggle01:hover {
             fill: #fff;
             color: #fff;
             background-color: #595959;
           }
-          .home-text3 {
+          .home-text03 {
             width: 100%;
             cursor: pointer;
             display: flex;
@@ -240,13 +317,13 @@ const Home = (props) => {
             font-style: normal;
             font-weight: 500;
           }
-          .home-dropdown1 {
+          .home-dropdown01 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-radius-radius-radius2);
           }
-          .home-dropdown-toggle2 {
+          .home-dropdown-toggle02 {
             fill: #595959;
             color: #595959;
             width: 100%;
@@ -259,12 +336,12 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-unit);
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .home-dropdown-toggle2:hover {
+          .home-dropdown-toggle02:hover {
             fill: #fff;
             color: #fff;
             background-color: #595959;
           }
-          .home-text4 {
+          .home-text04 {
             width: 100%;
             cursor: pointer;
             display: flex;
@@ -272,13 +349,13 @@ const Home = (props) => {
             font-style: normal;
             font-weight: 500;
           }
-          .home-dropdown2 {
+          .home-dropdown02 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-radius-radius-radius2);
           }
-          .home-dropdown-toggle3 {
+          .home-dropdown-toggle03 {
             fill: #595959;
             color: #595959;
             width: 100%;
@@ -291,12 +368,236 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-unit);
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .home-dropdown-toggle3:hover {
+          .home-dropdown-toggle03:hover {
             fill: #fff;
             color: #fff;
             background-color: #595959;
           }
-          .home-text5 {
+          .home-text05 {
+            width: 100%;
+            cursor: pointer;
+            display: flex;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+          }
+          .home-dropdown03 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-radius-radius-radius2);
+          }
+          .home-dropdown-toggle04 {
+            fill: #595959;
+            color: #595959;
+            width: 100%;
+            display: inline-flex;
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-space-space-halfunit);
+            padding-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-radius4);
+            padding-right: var(--dl-space-space-unit);
+            padding-bottom: var(--dl-space-space-halfunit);
+          }
+          .home-dropdown-toggle04:hover {
+            fill: #fff;
+            color: #fff;
+            background-color: #595959;
+          }
+          .home-text06 {
+            width: 100%;
+            cursor: pointer;
+            display: flex;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+          }
+          .home-dropdown04 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-radius-radius-radius2);
+          }
+          .home-dropdown-toggle05 {
+            fill: #595959;
+            color: #595959;
+            width: 100%;
+            display: inline-flex;
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-space-space-halfunit);
+            padding-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-radius4);
+            padding-right: var(--dl-space-space-unit);
+            padding-bottom: var(--dl-space-space-halfunit);
+          }
+          .home-dropdown-toggle05:hover {
+            fill: #fff;
+            color: #fff;
+            background-color: #595959;
+          }
+          .home-text07 {
+            width: 100%;
+            cursor: pointer;
+            display: flex;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+          }
+          .home-dropdown05 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-radius-radius-radius2);
+          }
+          .home-dropdown-toggle06 {
+            fill: #595959;
+            color: #595959;
+            width: 100%;
+            display: inline-flex;
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-space-space-halfunit);
+            padding-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-radius4);
+            padding-right: var(--dl-space-space-unit);
+            padding-bottom: var(--dl-space-space-halfunit);
+          }
+          .home-dropdown-toggle06:hover {
+            fill: #fff;
+            color: #fff;
+            background-color: #595959;
+          }
+          .home-text08 {
+            width: 100%;
+            cursor: pointer;
+            display: flex;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+          }
+          .home-dropdown06 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-radius-radius-radius2);
+          }
+          .home-dropdown-toggle07 {
+            fill: #595959;
+            color: #595959;
+            width: 100%;
+            display: inline-flex;
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-space-space-halfunit);
+            padding-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-radius4);
+            padding-right: var(--dl-space-space-unit);
+            padding-bottom: var(--dl-space-space-halfunit);
+          }
+          .home-dropdown-toggle07:hover {
+            fill: #fff;
+            color: #fff;
+            background-color: #595959;
+          }
+          .home-text09 {
+            width: 100%;
+            cursor: pointer;
+            display: flex;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+          }
+          .home-dropdown07 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-radius-radius-radius2);
+          }
+          .home-dropdown-toggle08 {
+            fill: #595959;
+            color: #595959;
+            width: 100%;
+            display: inline-flex;
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-space-space-halfunit);
+            padding-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-radius4);
+            padding-right: var(--dl-space-space-unit);
+            padding-bottom: var(--dl-space-space-halfunit);
+          }
+          .home-dropdown-toggle08:hover {
+            fill: #fff;
+            color: #fff;
+            background-color: #595959;
+          }
+          .home-text10 {
+            width: 100%;
+            cursor: pointer;
+            display: flex;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+          }
+          .home-dropdown08 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-radius-radius-radius2);
+          }
+          .home-dropdown-toggle09 {
+            fill: #595959;
+            color: #595959;
+            width: 100%;
+            display: inline-flex;
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-space-space-halfunit);
+            padding-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-radius4);
+            padding-right: var(--dl-space-space-unit);
+            padding-bottom: var(--dl-space-space-halfunit);
+          }
+          .home-dropdown-toggle09:hover {
+            fill: #fff;
+            color: #fff;
+            background-color: #595959;
+          }
+          .home-text11 {
+            width: 100%;
+            cursor: pointer;
+            display: flex;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+          }
+          .home-dropdown09 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-radius-radius-radius2);
+          }
+          .home-dropdown-toggle10 {
+            fill: #595959;
+            color: #595959;
+            width: 100%;
+            display: inline-flex;
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-space-space-halfunit);
+            padding-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-radius4);
+            padding-right: var(--dl-space-space-unit);
+            padding-bottom: var(--dl-space-space-halfunit);
+          }
+          .home-dropdown-toggle10:hover {
+            fill: #fff;
+            color: #fff;
+            background-color: #595959;
+          }
+          .home-text12 {
             width: 100%;
             cursor: pointer;
             display: flex;
